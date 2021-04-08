@@ -1,0 +1,54 @@
+body{
+  background-color: #E6E6FA;
+}
+
+header{
+  background-color: #7159c1;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  margin: -8px;
+  border-radius: 0px 0px 10px 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  text-align: center;
+}
+
+/* lista */
+.listas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* tables */
+table{
+  margin-top: 20px;
+}
+tr{
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;   
+}
+td{
+  padding: 2px 30px 2px 30px;
+}
+
+.headerColun{
+  background-color: #7159c1;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+}
+
+.img{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
