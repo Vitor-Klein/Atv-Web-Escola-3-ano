@@ -1,0 +1,162 @@
+body{
+  background-color: #F7F8FA;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #031b2d;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  margin: -8px;
+  border-radius: 0px 0px 10px 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-top: -8px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+.dados h2 {
+  margin-top: 10px;
+}
+
+strong {
+  text-align: center;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+p{
+  margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form {
+  margin: auto;
+  max-width: 730px;
+  background: #FFF;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset{
+  border: 2px solid #1C1C1C;
+  border-radius: 5px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button_Env {
+  text-align: center;
+  padding: 2% 18% 2% 18%;
+  border-radius: 5px;
+  border: 1;
+  background: #031b2d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button_Lim {
+  text-align: center;
+  padding: 2% 18% 2% 18%;
+  border-radius: 5px;
+  border: 1;
+  background: #031b2d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type=text]{
+  width:380px;
+  height: 35px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.radios{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+
+.checkboxs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
+  list-style: none;
+}
+
+input[type=radio]{
+  width:20px;
+  height: 35px;
+}
+label {
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 18px;
+}
+
+input[type=checkbox]{
+  width:20px;
+  height: 20px;
+}
+
+input::placeholder{
+  font-size: 18px;
+  text-align: initial;
+  display: inline;
+}
+
+select {
+  width:380px;
+  height: 35px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+
+.txta{
+  background-color:#d3d3d3;
+}
+
+textarea {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+label.campo {
+  display: flex;
+}
+
+legend{
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}

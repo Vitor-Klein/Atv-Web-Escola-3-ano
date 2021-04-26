@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Atv Form 2</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="./logo.svg" alt="logo">
+    <span>Crie seu Podcast agora mesmo!</span>
+  </div>
+ 
+    <div class="container">
+      <form class="form">
+        <fieldset>
+          <legend>Criar conta</legend>
+          <p>Formulario de cadastro</p>
+          <div class="campos">  
+            <input placeholder="Nome" type="text" name="nome" id="nome"><br><br>      
+            <input placeholder="CPF" type="text" name="cfp" id="cpf"><br> <br>    
+            <input placeholder="RG" type="text" name="RG" id="rg"><br><br>            
+            <input placeholder="Telefone" type="text" name="telefone" id="telefone"><br><br>             
+            <input placeholder="Endereço" type="text" name="endereço" id="endereço"><br><br>          
+            <input placeholder="E-Mail" type="text" name="e-mail" id="e-mail"><br>
+  
+            <label class="campo">Região</label>
+            <select name="region" class="select">
+              <option value="Sul">Sul</option>
+              <option value="Nordeste">Nordeste</option>
+              <option value="Norte">Norte</option>
+              <option value="Sudeste">Sudeste</option>
+              <option value="Centro Oeste">Centro Oeste</option>
+            </select>
+          </div>
+
+          </fieldset><br>
+         <!-- ---------------------------------------------------------- -->
+          <fieldset>
+            <legend>Criar um Podcast</legend>
+            <div class="dados">
+              <h2>Dados Especificos</h2>
+    
+              <strong>sobre os Podcasts</strong>
+              <br> <br> <br>
+
+            <div class="radios">
+              <strong>Formato do Podcast</strong><br>
+              <label>Apenas audio</label>
+              <input type="radio" name="Novidades">
+              <label>Audio e Imagem</label>
+              <input type="radio" name="Novidades">
+              <label>Audio e Imagem com legenda</label>
+              <input type="radio" name="Novidades">
+              <label>Audio e Imagem com libras</label>
+              <input type="radio" name="Novidades">
+              <label>Audio e Imagem com legenda e libras</label>
+              <input type="radio" name="Novidades">
+            </div>
+              <br><br>
+            <div class="checkboxs">
+              <strong>Genero do Podcast</strong><br>
+              <label>Tecnologia</label>
+              <input type="checkbox" name="Novidades">
+              <label>Sociedade</label>
+              <input type="checkbox" name="Novidades">
+              <label>Meio ambiente</label>
+              <input type="checkbox" name="Novidades">
+              <label>Móda</label>
+              <input type="checkbox" name="Novidades">
+              <label>Cultura Geek</label>
+              <input type="checkbox" name="Novidades">
+            </div>
+              <br><br>
+          </div>
+  
+            <strong>Descreva seu podcast resumidamente:
+              <textarea name="comentario" class="txta" cols="45" rows="8"></textarea><br></strong>
+          </fieldset><br>
+          <div class="action">
+            <button class="button_Env" value="Enviar">Enviar</button>
+            <button class="button_Lim" value="Limpar">Limpar</button>
+          </div>
+        </form>
+    </div>
+</body>
+
+</html>
