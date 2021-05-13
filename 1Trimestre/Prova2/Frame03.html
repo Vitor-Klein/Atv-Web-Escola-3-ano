@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<style>
+  .tb2 td {
+    padding: 10px;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+</style>
+<body>
+  <table border="4">
+    <tbody>
+      <tr>
+        <th colspan="2">Temperatura</th>
+        <th colspan="10">Humidade Relativa</th>
+      </tr>
+      <tr>
+        <td>of</td>
+        <td>oc</td>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+        <td>60</td>
+        <td>70</td>
+        <td>80</td>
+        <td>90</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>70</td>
+        <td>21,1</td>
+        <td style="background-color:#00fff2">64</td>
+        <td style="background-color:#00fff2">64</td>
+        <td style="background-color:#00fff2">65</td>
+        <td style="background-color:#00fff2">66</td>
+        <td style="background-color:#00fff2">66</td>
+        <td style="background-color:#00fff2">67</td>
+        <td style="background-color:#00fff2">68</td>
+        <td style="background-color:#00fff2">68</td>
+        <td style="background-color:#00ff37">69</td>
+        <td style="background-color:#00ff37">70</td>
+      </tr>
+      <tr>
+        <td>75</td>
+        <td>23,9</td>
+        <td style="background-color:#00fff2">66</td>
+        <td style="background-color:#00fff2">67</td>
+        <td style="background-color:#00fff2">68</td>
+        <td style="background-color:#00ff37">69</td>
+        <td style="background-color:#00ff37">70</td>
+        <td style="background-color:#00ff37">71</td>
+        <td style="background-color:#89c0bd">72</td>
+        <td style="background-color:#89c0bd">73</td>
+        <td style="background-color:#ff00dd">74</td>
+        <td style="background-color:#ff00dd">75</td>
+      </tr>
+      <tr>
+        <td>80</td>
+        <td>26,7</td>
+        <td style="background-color:#00ff37">69</td>
+        <td style="background-color:#00ff37">70</td>
+        <td style="background-color:#00ff37">71</td>
+        <td style="background-color:#89c0bd">72</td>
+        <td style="background-color:#89c0bd">73</td>
+        <td style="background-color:#ff00dd">75</td>
+        <td style="background-color:#ff00dd">76</td>
+        <td style="background-color:#ff00dd">77</td>
+        <td style="background-color:#ff00dd">78</td>
+        <td style="background-color:#bbff00">80</td>
+      </tr>
+      <tr>
+        <td>85</td>
+        <td>29,4</td>
+        <td style="background-color:#00ff37">71</td>
+        <td style="background-color:#89c0bd">73</td>
+        <td style="background-color:#89c0bd">74</td>
+        <td style="background-color:#ff00dd">76</td>
+        <td style="background-color:#ff00dd">77</td>
+        <td style="background-color:#ff00dd">79</td>
+        <td style="background-color:#bbff00">80</td>
+        <td style="background-color:#bbff00">82</td>
+        <td style="background-color:#bbff00">83</td>
+        <td style="background-color:#bbff00">85</td>
+      </tr>
+      <tr>
+        <td>90</td>
+        <td>32,2</td>
+        <td style="background-color:#89c0bd">74</td>
+        <td style="background-color:#ff00dd">75</td>
+        <td style="background-color:#ff00dd">77</td>
+        <td style="background-color:#ff00dd">79</td>
+        <td style="background-color:#bbff00">81</td>
+        <td style="background-color:#bbff00">82</td>
+        <td style="background-color:#bbff00">84</td>
+        <td style="background-color:#bbff00">86</td>
+        <td style="background-color:#bbff00">88</td>
+        <td style="background-color:#ff0000">90</td>
+      </tr>
+      <tr>
+        <td>95</td>
+        <td>35,0</td>
+        <td style="background-color:#ff00dd">76</td>
+        <td style="background-color:#ff00dd">78</td>
+        <td style="background-color:#bbff00">80</td>
+        <td style="background-color:#bbff00">82</td>
+        <td style="background-color:#bbff00">84</td>
+        <td style="background-color:#bbff00">86</td>
+        <td style="background-color:#bbff00">88</td>
+        <td style="background-color:#ff0000">90</td>
+        <td style="background-color:#ff0000">92</td>
+        <td style="background-color:#ff0000">95</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>37,8</td>
+        <td style="background-color:#ff00dd">79</td>
+        <td style="background-color:#bbff00">81</td>
+        <td style="background-color:#bbff00">83</td>
+        <td style="background-color:#bbff00">86</td>
+        <td style="background-color:#bbff00">88</td>
+        <td style="background-color:#ff0000">90</td>
+        <td style="background-color:#ff0000">93</td>
+        <td style="background-color:#ff0000">95</td>
+        <td style="background-color:#ff0000">97</td>
+        <td style="background-color:#ff0000">100</td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td>40,6</td>
+        <td style="background-color:#bbff00">82</td>
+        <td style="background-color:#bbff00">84</td>
+        <td style="background-color:#bbff00">87</td>
+        <td style="background-color:#bbff00">89</td>
+        <td style="background-color:#ff0000">92</td>
+        <td style="background-color:#ff0000">95</td>
+        <td style="background-color:#ff0000">97</td>
+        <td style="background-color:#ff0000">100</td>
+        <td style="background-color:#ff0000">102</td>
+        <td style="background-color:#ff0000">105</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="tb2" border="3">
+    <tbody>
+      <tr>
+        <th colspan="2">Legenda</th>
+      </tr>
+      <tr>
+        <td style="background-color:#00fff2"></td>
+        <td>Sensação de frio</td>
+      </tr>
+      <tr>
+        <td style="background-color:#00ff37"></td>
+        <td> Nenhum desconforto</td>
+      </tr>
+      <tr>
+        <td style="background-color:#89c0bd"></td>
+        <td>Pequeno desconforto</td>
+      </tr>
+      <tr>
+        <td style="background-color:#ff00dd"></td>
+        <td>Desconforto consideravel</td>
+      </tr>
+      <tr>
+        <td style="background-color:#bbff00"></td>
+        <td>Grande desconforto</td>
+      </tr>
+      <tr>
+        <td style="background-color:#ff0000"></td>
+        <td>Maximo desconforto</td>
+      </tr>
+    </tbody>
+  </table>
+  
+</body>
+</html>
