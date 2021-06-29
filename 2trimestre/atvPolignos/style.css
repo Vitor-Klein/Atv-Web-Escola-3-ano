@@ -1,0 +1,36 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.star {
+  position: absolute;
+  top: calc(50% - 5em);
+  left: calc(50% - 10em);
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 6.5em solid #ECC94B;
+  border-right: 10em solid transparent;
+  border-left: 10em solid transparent;
+}
+
+.triangle:nth-of-type(1) {
+  transform: rotate(72deg) translateX(-0.5em) translateY(0.3em);
+}
+
+.triangle:nth-of-type(2) {
+  transform: rotate(-72deg) translateX(0.3em) translateY(-0.5em);
+}
