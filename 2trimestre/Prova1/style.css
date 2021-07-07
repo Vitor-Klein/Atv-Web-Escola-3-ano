@@ -14,7 +14,7 @@ a {
 
 body {
   line-height: 20px;
-  font-family: 'Open Sans', helvetica, sans-serif;
+  font-family: Roboto, helvetica, sans-serif;
   font-size: 13px;
   color: #333;
   background-color: #fff;
@@ -72,7 +72,7 @@ header {
   margin-right: 90px;
   margin-top: 0;
   font-size: 24px;
-  font-family: 'Coiny', sans-serif;
+  font-family: Roboto, sans-serif;
   font-variant: small-caps;
   margin-left: -50px;
 }
