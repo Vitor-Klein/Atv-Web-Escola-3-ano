@@ -18,6 +18,8 @@ body {
   font-size: 13px;
   color: #333;
   background-color: #fff;
+  font: 400 14px Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 header {
@@ -108,12 +110,6 @@ header {
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-}
-
-body {
-  font: 400 14px Roboto, sans-serif;
-  background: #f0f0f5;
-  -webkit-font-smoothing: antialiased;
 }
 
 input, button, textarea {
