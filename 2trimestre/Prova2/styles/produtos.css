@@ -79,7 +79,77 @@ header {
 }
 
 .container{
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.item{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-items: space-between;
+  margin-top: 5rem;
+}
+.title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.imagem{
+  width:220px ;
+  height: 400px;
+}
+
+.info{
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.tituloProduto{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -0.2rem;
+}
+
+.descricao{
+  color: #fff;
+  width: 250px;
+  height: 250px;
+  font-family: sans-serif;
+  margin-left: 1rem;
+  margin-top: -1rem;
+  text-align: justify;
+}
+
+.preco{
+  color: #fff;
+  color: #fff;
+  width: 250px;
+  font-family: sans-serif;
+  margin-left: 1rem;
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.comprar{
+  color: #e02041;
+  font-size: 30px;
+  background: none;
+  border: none;
+  margin-top: -1rem;
+  margin-right: 8rem;
+  text-align: start;
+  cursor: pointer;
+}
+
+.comprar:hover{
+  border-bottom: 3px solid #e02041;
 }
