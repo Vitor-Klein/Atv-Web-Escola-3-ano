@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/formulario.css">
+  <title>SignIn</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="header">
+        <div class="brand">
+          <p class="name">Bem vindo!</p>
+        </div>
+        <ul class="menu">
+          <li><a href="./formulario.html">Cadastro</a></li>
+          <li><a href="./contato.html">Contate-nos</a></li>
+          <li><a href="./produtos.html">Itens</a></li>
+          <li><a href="./login.html">Login</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="content">
+      <h1 class="title">Clona Cartão</h1>
+
+      <form onSubmit={handleSubmit}>
+        <h1>Faça seu cadastro</h1>
+
+        <input name="numero" placeholder="Numeros do cartão" />
+        <input name="cvv" placeholder="CVV" />
+        <input name="date" placeholder="Data de espiração" />
+        <input name="email" placeholder="E-mail" />
+        <input name="nome" placeholder="Nome" />
+
+        <input
+          name="password"
+          type="password"
+          placeholder="Senha"
+        />
+
+        <button type="submit">
+          <a href="./formulario.html">Entrar</a>
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
