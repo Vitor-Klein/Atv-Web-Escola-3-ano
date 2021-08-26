@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var idade = prompt("Informe sua idade")
+
+    if(idade >= 18){
+      window.alert("voce é maior de idade!! parabens")
+    }else{
+      window.alert("voce é menor de idade, sinto muito")
+    }
+
+    var peso = prompt("informe seu peso")
+    var altura = prompt("informe seu altura")
+
+    var imc = peso/(altura * altura)
+
+    if(imc < 20)
+    		{
+    			alert('Você esta abaixo do peso!');
+    		} 
+    		else if(imc >20 && imc <= 25)
+    		{
+    			alert("Peso Ideal");
+    		}
+    		else if(imc >25 && imc <= 30)
+    		{
+    			alert("Sobrepeso");
+    		}
+    		else if(imc >30 && imc <= 35)
+    		{
+    			alert("Obesidade Moderada");
+    		}
+    		else if(imc >35 && imc <= 40)
+    		{
+    			alert("Obesidade Severa");
+    		}
+    		else if(imc >40 && imc <= 50)
+    		{
+    			alert("Obesidade Morbida");
+    		}
+    		else
+    		{
+    			alert('Gordo');
+    		}
+
+        var numero = prompt("Informe um numero")
+
+        if(numero % 2 == 0){
+          window.alert("O numero "+ numero + " é par")
+        }else{
+          window.alert("O numero "+ numero + " é impar")
+
+        }
+  </script>
+</body>
+</html>
