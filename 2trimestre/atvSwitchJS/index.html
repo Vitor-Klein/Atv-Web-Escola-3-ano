@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtvSwitch</title>
+</head>
+
+<style>
+  h1 {
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+</style>
+
+<body>
+  <h1 class="texto">Bem vindo voce acertou o mes, parabens!!!</h1>
+
+
+  <script type="text/javascript">
+    var mes = prompt("informe o mes")
+
+
+
+    switch (mes) {
+      case 'janeiro':
+        alert("o mes é janeiro!")
+        break;
+      case 'fevereiro':
+        alert("o mes é fevereiro!")
+        break;
+      case 'março':
+        alert("o mes é março!")
+        break;
+      case 'abril':
+        alert("o mes é abril!")
+        break;
+      case 'maio':
+        alert("o mes é maio!")
+        break;
+      case 'junho':
+        alert("o mes é junho!")
+        break;
+      case 'julho':
+        alert("o mes é julho!")
+        break;
+      case 'agosto':
+        alert("o mes é agosto!")
+        break;
+      case 'setembro':
+        alert("o mes é setembro!")
+        break;
+      case 'outubro':
+        alert("o mes é outubro!")
+        break
+      case 'novembro':
+        alert("o mes é novembro!")
+        break;
+      case 'dezembro':
+        alert("o mes é dezembro!")
+        break;
+
+
+      default:
+        alert("esse mes nao existe :(")
+        break;
+    }
+
+    var Texto = document.querySelector('.texto')
+    Texto.innerHTML = `o mes é ${mes}`
+  </script>
+
+</body>
+
+</html>
