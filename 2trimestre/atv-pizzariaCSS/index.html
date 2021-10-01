@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"></div>
+    <form name="form">
+        <table>
+            <h1>Pizzaria mondrone</h1>
+
+            <span>Escolha seu sabor</span>
+                <select name="sabor" id="">
+                    <option value="">Calabresa</option>
+                    <option value="">Queijo</option>
+                    <option value="">Mista</option>
+                    <option value="">Doce</option>
+                </select>
+
+                <span>Escolha seu sabor</span><input type="number" min="1" defaultValue="1" name="qtdd">
+                <select name="bebida" id="">
+                    <option value="">coca</option>
+                    <option value="">Guarana</option>
+                    <option value="">Fanta</option>
+                    <option value="">Pepsi</option>
+                </select>
+
+                <span>Escolha seu sabor</span><input type="number" min="1" defaultValue="1" name="qtdd">
+
+                <span>opções adicionais</span>
+                <input type="checkbox" name="op1"> Tomate
+                <input type="checkbox" name="op2"> Queijo extra
+                <input type="checkbox" name="op3"> Cogumentos
+                <input type="checkbox" name="op4"> Chocolate ao leite
+        </table>
+        <table border="1">
+            <tr>
+                <td>Dados de entrega</td>
+            </tr>
+            <tr><td>Nome: <input type="text" nome="nome" size="50"></td></tr>
+            <tr><td>Nome: <input type="text" nome="morada" size="50"></td></tr>
+            <tr><td>Nome: <input type="text" nome="telefone" size="14" placeholder="(45)xxxxx-xxxx"/></td></tr>
+            <tr>
+                <td>formas de pagamento:
+                    <input type="text" nome="">Cartão de redito
+                    <input type="text" nome=""> vista
+                    <input type="text" nome=""> boleto
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="enviar" value="ENVIAR">
+                    <input type="reset" name="limpar" value="LIMPAR">
+
+                </td>
+            </tr>
+        </table>
+        </div>
+    </form>
+    
+</body>
+</html>
