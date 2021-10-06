@@ -1,0 +1,121 @@
+.form{
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.adicionaisContainer{
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+
+  margin-top:10px;
+}
+
+
+.adicionais{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:10px;
+}
+
+.pagamentoContainer{
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-top:10px;
+}
+
+.pagamento{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+input[type=radio]{
+  width: 20px;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+  border: solid 2px;
+  vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  color: #7159c1;
+}
+
+span{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 10px
+}
+
+select{
+  width: 400px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #1f1d1d;
+}
+
+input[type="text"]{
+  width: 400px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #1f1d1d;
+}
+
+input[type="number"]{
+  width: 400px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid #1f1d1d;
+}
+
+input[type="checkbox"]{
+  font-size:16px;
+  font-family: sans-serif;
+  width: 20px;
+  height: 20px;
+}
+
+.dados{
+  margin-top:20px;  
+}
+
+.buttons{
+  margin-top:15px
+}
+
+.buttons input[type="submit"]{
+  width: 120px;
+  height: 40px;
+
+  border-radius: 5px;
+  border: 1px solid #40d622;
+  background-color: #40d622;
+
+  cursor: pointer;
+
+}
+
+.buttons input[type="reset"]{
+  width: 120px;
+  height: 40px;
+
+  border-radius: 5px;
+  border: 1px solid #d62222;
+  background-color: #d62222;
+  
+  cursor: pointer;
+}

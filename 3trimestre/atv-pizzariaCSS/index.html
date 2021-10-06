@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vitor Klein</title>
+</head>
+<script type="text/javascript">
+    function validar(form){
+    var nome = form.nome.value;
+    var end = form.endereco.value;
+    var fone = form.telefone.value;
+    
+    
+    if(form.opcao.selectedIndex == 0 || form.quantidade.selectedIndex == 0 ||nome.length <= 0 || end.length <= 0 || fone.length <= 0 ){
+    window.alert("Preencha corretamente");
+    return false;
+        }
+    }
+    </script>
+<body>
+    <div class="container"></div>
+    <form class="form"name="pizza"  method="post" onsubmit="return validar(document.pizza)">
+        <table>
+            <h1>Pizzaria mondrone</h1>
+
+            <span>Escolha seu sabor</span>
+                <select name="sabor" id="">
+                    <option value="">Calabresa</option>
+                    <option value="">Queijo</option>
+                    <option value="">Mista</option>
+                    <option value="">Doce</option>
+                </select>
+
+                <span>Selecione a quantidade</span>
+                <input type="number" min="1" defaultValue="1" name="qtdd">
+
+                <span>Escolha uma bebida</span>
+                <select name="bebida" id="">
+                    <option value="">coca</option>
+                    <option value="">Guarana</option>
+                    <option value="">Fanta</option>
+                    <option value="">Pepsi</option>
+                </select>
+
+                <span>Selecione a quantidade</span>
+                <input type="number" min="1" defaultValue="1" name="qtdd">
+
+                <span>Escolha quantas e quais suas opções adicionais</span>
+                <input type="number" min="1" defaultValue="1" name="qtdd">
+
+                <div class="adicionaisContainer">
+                <span>opções adicionais</span>
+               <div class="adicionais">
+                <input type="checkbox" name="op1"> Tomate
+                <input type="checkbox" name="op2"> Queijo extra
+                <input type="checkbox" name="op3"> Cogumentos
+                <input type="checkbox" name="op4"> Chocolate ao leite
+               </div>
+                </div>
+        </table>
+
+        <div class="pagamentoContainer">
+            <span>Selecione a forma de pagamento:</span>
+
+            <div class="pagamento"> 
+                <input type="radio" id="pagamento1" name="pagamento" value=""> cartão
+                <input type="radio" id="pagamento2" name="pagamento" value="60"> a vista
+                <input type="radio" id="pagamento3" name="pagamento" value="100"> boleto
+            </div>
+            
+        </div>
+        <table class="dados">
+
+        <span>Dados de entrega</span>
+            <p>Nome:</p>
+            <input type="text" nome="nome" size="50" maxlength="50">
+            <p>Endereço:</p> 
+            <input type="text" nome="endereco" size="50" maxlength="50">
+            <p>Telefone:</p> 
+            <input type="text" nome="telefone" size="14" maxlength="50" placeholder="(45)xxxxx-xxxx"/>
+           
+                <div class="buttons">
+                    <input type="submit" name="enviar" value="ENVIAR">
+                    <input type="reset" name="limpar" value="LIMPAR">
+                </div>
+
+        </table>
+        </div>
+    </form>
+    
+</body>
+</html>
