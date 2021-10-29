@@ -34,7 +34,9 @@
     <div class="container"></div>
     <form class="form" name="pizza"  method="post" onsubmit="return validar(document.pizza)">
         <table>
-            <h1>Pizzaria mondrone</h1>
+            <header>
+                <h1>Pizzaria mondrone</h1>
+            </header>
 
             <span>Escolha seu sabor</span>
                 <select name="sabor" id="">
@@ -93,11 +95,13 @@
             <input type="text" nome="email" size="14" maxlength="50" />
             <p>Cep:</p> 
             <input type="text" nome="cep" size="14" maxlength="50" />
-            <p>Sexo:</p> 
+            <div class="sexo">
+                <p>Sexo:</p> 
             <input type="radio" id="sexo1" name="sexo" value=""> Masculino
             <input type="radio" id="sexo2" name="sexo" value="60"> Feminino
+            </div>
             <p>Opinião:</p> 
-            <input type="text" nome="opiniao" size="14" maxlength="50" />
+            <input type="textarea" nome="opiniao" size="14" maxlength="50" />
            
                 <div class="buttons">
                     <input type="submit" name="enviar" value="ENVIAR">

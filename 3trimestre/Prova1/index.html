@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apostila JavaScript Progressivo</title>
+    <script type="text/javascript" src="script.js"> </script>
+</head>
+
+<body>
+    Tabuada do número: <input id="num" type="number"> <br />
+    <button onclick="tabuada()">Exibir</button><br />
+    Tabuada: <br />
+    <div id='resposta' style='display:inline'></div>
+
+    informe outro numero: <input id="num2" type="number"> <br />
+    informe a potencia q esse numero sera elevado: <input id="pot" type="number"> <br />
+    <button onclick="potencia()">Calcular</button><br />
+    resultado: <br />
+    <div id='respostaPot' style='display:inline'></div>
+
+    informe seu peso: <input id="peso" type="number"> <br />
+    informe sua altura: <input id="altura" type="number"> <br />
+    <button onclick="IMC()">Calcular IMC</button><br />
+    resultado: <br />
+    <div id='respostaIMC' style='display:inline'></div>
+    <div id='info' style='display:inline'></div>
+</body>
+
+</html>
+<script>
+    function tabuada() {
+        var num = parseInt(document.getElementById("num").value);
+        var resposta = document.getElementById('resposta');
+        var tabuada = '';
+
+        for (var count = 1; count <= 10; count++)
+            tabuada += num + " x " + count + " = " +
+                num * count + "<br />";
+
+        resposta.innerHTML = tabuada;
+    }
+
+    function potencia() {
+        var num2 = parseInt(document.getElementById("num2").value);
+        var pot = parseInt(document.getElementById("pot").value);
+        var resposta = document.getElementById('respostaPot');
+        var info = document.getElementById('info');
+        var potencia = '';
+
+        var potencia = Math.pow(num2, pot)
+
+        resposta.innerHTML = potencia
+    }
+
+    function IMC() {
+        var peso = parseInt(document.getElementById("peso").value);
+        var altura = parseInt(document.getElementById("altura").value);
+        var resposta = document.getElementById('respostaIMC');
+        var info = document.getElementById('info');
+        var IMC = '';
+
+        IMC = peso * (altura / altura)
+        resposta.innerHTML = IMC
+
+        if (IMC < 18, 5) {
+            info.innerHTML = "Voce esta abaixo do peso"
+
+        } else if (IMC > 18, 5 && IMC < 24, 9) {
+            info.innerHTML = "Voce esta com um peso normal ou saudavel"
+
+        } else if (IMC > 25 && IMC < 29, 9) {
+            info.innerHTML = "Voce esta acima do peso"
+
+        } else if (IMC > 30) {
+            info.innerHTML = "Voce esta com obesidade"
+        }
+        
+
+    }
+</script>
